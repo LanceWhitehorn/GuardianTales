@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1080px) {
+	body {
+		max-width: 95%;
+		font-size: 1.8em;
+	}
+	input[type="radio"] {
+		display: inline-block;
+		margin: 0px 5px 0px 20px;
+		width: 2em;
+		height: 2em;
+	}
+	fieldset {
+		padding: 40px;
+	}
+	.button {
+		padding: 15px 30px;
+		font-size: 0.9em;
+	}
+	select {
+		padding: 7px 30px;
+		font-size: inherit;
+	}
+}
+@media only screen and (min-width: 1080px) {
+	body {
+		max-width: 40%;
+	}
+	input[type="radio"] {
+		display: inline-block;
+		margin: 0px 5px 0px 20px;
+		width: 1.1em;
+		height: 1.1em;
+	}
+	fieldset {
+		padding: 20px;
+	}
+	.button {
+		padding: 5px 16px;
+		font-size: inherit;
+	}
+	select {
+		padding: 7px 12px;
+	}
+}
+body {
+	margin: auto;
+	font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  /* Darken */
+			url("https://akamai-webcdn.kgstatic.net/gt/images/pc/img_intro.png"), /* FP + Knight */
+			url("https://akamai-webcdn.kgstatic.net/gt/images/pc/bg_intro.jpg"); /* Background */
+	background-size: cover, auto 25%, cover;
+	background-position: center, bottom, center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* Disable select */
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+}
+p {
+	color: #ffffff;
+	display: inline;
+	font-size: 1.2em;
+}
+a, a:visited {
+	font-family: inherit;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid 
+}
+span.highlight {
+	border-bottom: 1px solid;
+	font-weight: bold;
+}
+.styled-table {
+	border-collapse: collapse;
+	margin: 20px 0px 100px;
+	font-size: 0.9em;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	max-width: 100%;
+}
+.styled-table thead tr,
+.styled-table th {
+	padding: 10px 20px;
+	background-color:rgba(33, 149, 218, 1);
+	color: #ffffff;
+	text-align: left;
+}
+.styled-table td {	
+	padding: 10px 20px;
+	background-color: #f5f5f5;
+	background-color:rgba(255, 255, 255, 0.8);
+}
+.button {
+	appearance: none;
+	background-color: #fafbfc;
+	border: 1px solid rgba(27, 31, 35, 0.15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+	box-sizing: border-box;
+	color: #24292e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-weight: 500;
+	line-height: 20px;
+	list-style: none;
+	margin: 0px 0px 3px 0px;
+	position: relative;
+	transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-wrap: break-word;
+}
+fieldset {
+	-webkit-appearance: none;
+	margin: 20px 0px 20px 0px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px -2px #9098A9;
+	font-size: inherit;
+	color: #FAFBFC;
+}
+select {
+	position: relative;
+	-webkit-appearance: none;
+	border: 1px solid #E8EAED;
+	border-radius: 5px;
+	background: #ffffff;
+	box-shadow: 0 1px 3px -2px #9098A9;
+	font-family: inherit;
+	width: auto;
+}
+option:checked {
+    background-color:rgba(33, 149, 218, 0.8);
+    color: white;
+    font-weight: 500;
+}
+
+
