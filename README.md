@@ -1,6 +1,6 @@
 # Guardian Tales
 
-## Background / Description
+## Background
 Guardian Tales is a mobile gacha RPG game that I've played since October 2020. For people unfamiliar with the game, there is a mode called 'Guild Raid' where guilds of 30 members hit progressively harder bosses to achieve the highest score they can over a fornight. The game does not provide historical records so I put together spreadsheets on Google Sheets to record our performances and created an interactive 'dashboard' to summarise performance by guild (https://bit.ly/gt-raid-dashboard) and by guild member (https://bit.ly/gt-member-dashboard). However, this was not a very user-friendly way to access and display the data, so I built a simple webpage that was more intuitive and user-friendly!
 
 ## Link
