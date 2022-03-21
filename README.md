@@ -14,3 +14,11 @@ Unfortunately, there is no straight forwrd method to gather game data. So, I use
    * Extracts the information I need using [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) 
    * Saves the data into a pandas dataframe and exports it as a CSV file
 3) Import the data into my database.
+
+## Use
+1. For those wanting to use the Python code for extracting game data, please note that the figures I used to crop screenshots was based on a 1080 × 2400 pixel screen resolution.
+2. You will need to install Tesseract OCR and set its location in `extract/utils/imports.ipynb`.
+```py
+# Tesseract-OCR location
+pytesseract.pytesseract.tesseract_cmd = '{location to Tesseract}\tesseract.exe'
+```
