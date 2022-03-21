@@ -9,7 +9,7 @@ I currently host this at http://cpaa.servicomp.net.au/gt
 ## Process
 Unfortunately, there is no straight forwrd method to gather game data. So, I used this work-around:
 1) Using an in-built screen recorder, I scroll through the guild rankings and guild member rankings.
-2) I wrote a Python script that:
+2) I wrote a Python script (`extract` folder) that:
    * Takes screenshots of the recording every 0.1s 
    * Extracts the information I need using [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) 
    * Saves the data into a pandas dataframe and exports it as a CSV file
